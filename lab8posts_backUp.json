@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "title": string,
+      "date": dateTime,
+      "postId": pID1,
+      "author": string,
+      "comments": [
+        {
+          "author": string,
+          "date": dateTime,
+          "commentId": cID1,
+          "content": string
+        },
+        {
+          "author": string,
+          "date": dateTime,
+          "commentId": cID2,
+          "content": string
+        }
+      ],
+      "content": string
+    },
+    {
+      "title": string,
+      "date": dateTime,
+      "postId": pID2,
+      "author": string,
+      "comments": [
+        {
+          "author": string,
+          "date": dateTime,
+          "commentId": cID1,
+          "content": string
+        },
+        {
+          "author": string,
+          "date": dateTime,
+          "commentId": cID2,
+          "content": string
+        }
+      ],
+      "content": string
+    }
+  ]
+}
